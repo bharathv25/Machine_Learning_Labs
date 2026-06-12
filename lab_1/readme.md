@@ -11,6 +11,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+Explanation:
 pandas
 Works with data like an Excel sheet — rows, columns, filtering
 
@@ -86,6 +87,6 @@ The dataset has a "difficulty" column we don't need for our model. We delete it.
 STEP-3:
 print(df['label'].value_counts())
 What this tells us:
-
+![Output](ONE.png)
 
 
